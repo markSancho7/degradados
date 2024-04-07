@@ -2,9 +2,20 @@ body{
     background-color: rgb(55, 55, 55);
 }
 .container{
+    margin-inline: auto;
     width: 1000px;
     display: flex;
     flex-wrap: wrap;
+}
+.title{
+    display: inline-block;
+    text-align: center;
+    width: 900px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold ;
+    color: white;
+
 }
 .flag{
     width: 300px;
