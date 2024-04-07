@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(55, 55, 55);
+}
+.container{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flag{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+}
+.flag1{
+    background-image: linear-gradient( red 33%, blue 33% 66%, rgb(255, 194, 12) 66%) ;
+}
+.flag2{
+    background-image: linear-gradient(to right, black 33%, rgb(255, 210, 29) 33% 66%, red 66%  );
+}
+.flag3{
+    background-image: linear-gradient(rgb(135, 227, 255) 38%, white 38% 43%, black 43% 60%, white 60% 65%, rgb(135, 227, 255) 65%) ;
+}
+.flag4{
+    background-image: 
+        linear-gradient(90deg, green 33%, transparent 33%),
+        linear-gradient(180deg, yellow 33% 53%, transparent 53%),
+        linear-gradient(180deg, red 55% 100%);
+}
+.flag5{
+    background-image: linear-gradient(135deg, green 40%, yellow 40% 60%, red 60%);
+}
+.flag6{
+    background-image: 
+    linear-gradient(110deg, blue 20%, transparent 20%),
+    linear-gradient(140deg, transparent 10%, yellow 10% 45%, red 45%, transparent 40%),
+    linear-gradient(159deg, transparent 25%, red 25% 65%, transparent 65%),
+    linear-gradient(170deg, transparent 30%, white 30% 80%, transparent 80%),
+    linear-gradient(180deg, transparent 30%, green 80%)
+
+}
